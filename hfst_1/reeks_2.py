@@ -4,17 +4,17 @@
 
 def grootste(x,y,z):
     """ return het grootste van de drie getallen """
-    return None
+    return max(x,y,z)
 
-# print( grootste(1,2,3) )
+print( grootste(1,2,3) )
 # print( grootste(9,6,3) )
 # print( grootste(3,7,5) )
 
 def grootste_lijst(lijst):
     """ return het grootste getal uit een lijst van getallen """
-    return None
+    return max(lijst)
 
-# print( grootste_lijst([2, 6, 8, 23, 12, 2]) )
+print( grootste_lijst([2, 6, 8, 23, 12, 2]) )
 # print( grootste_lijst([4, 6, -3, 10, 5, 3]) )
 # print( grootste_lijst([1, 3, 2]) )
 
@@ -29,9 +29,19 @@ def temperatuur_voorspelling(temp):
 
         Maak gebruik van f-strings om de boodschap op te stellen. 
     """
-    return None
+    if temp < 0:
+        woord = f"het vriest bij {temp}"
+    if  0 < temp < 10:  
+        woord = f"het is koud bij {temp}"
+    if  10 <= temp < 20: 
+        woord = f"het is fris bij {temp}"
+    if  20 <= temp < 30: 
+        woord = f"het is normaal bij {temp}"
+    if  30 <= temp:
+        woord = f"het is warm bij {temp}"
+    return woord
 
-# print( temperatuur_voorspelling(-3) )
+print( temperatuur_voorspelling(25) )
 # print( temperatuur_voorspelling(8) )
 # print( temperatuur_voorspelling(44) )
 

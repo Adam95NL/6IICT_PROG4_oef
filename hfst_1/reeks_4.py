@@ -8,10 +8,10 @@
 
 def laatste_element(lijst):
     """ return het laatste element uit een lijst """
-    return None
+    return list[lijst]
 
 # print( laatste_element([3]) )
-# print( laatste_element([1, 2, 3, 4, 5]) )
+print( laatste_element([1, 2, 3, 4, 5]) )
 # print( laatste_element([2, 6, 8, 23, 12, 2]) )
 
 def som_lijst(lijst):
