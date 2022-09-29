@@ -1,3 +1,5 @@
+from statistics import mean 
+
 films = [ "Monty Python and the Holy Grail",
           "Monty Python's Life of Brian",
           "Monty Python's Meaning of Life",
@@ -9,3 +11,15 @@ scores = [
     [ 7, 6, 5 ], # Life
     [ 6, 5, 6, 6 ] # Different
 ] 
+
+dict = {
+
+}
+
+for index,titel in enumerate(films):
+    dict[titel] = scores[index]
+
+
+for key, score in dict.items():
+    avg = mean(score)
+    print(avg)

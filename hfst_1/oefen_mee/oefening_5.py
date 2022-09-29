@@ -6,5 +6,11 @@ Voorbeeld:
 
 Tip: je hebt al in de reeksen gezien hoe een woord om te keren.
 """
-
+lege_dict = {}
 zin = input("Geef een zin op: ")
+woorden = zin.split()
+for woord in woorden:
+    dict[woord] = woord[::1]
+print(dict)
+# nieuwe_zin = ""
+# for woord in woorden:
