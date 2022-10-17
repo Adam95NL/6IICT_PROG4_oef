@@ -28,9 +28,10 @@ ranglijst_eten = [
 }
 """
 alfabet = ["a", "b", "c", "d", "e"]
-for x in ranglijst_eten:
-    b = b + 1
-    alfabet[b] = ranglijst_eten[b]
+#for x in ranglijst_eten:
+for key in alfabet:
+    hah =+ 0
+    alfabet[key] = ranglijst_eten[hah]
     print(alfabet)
 
 ranglijst_eten_2 = [
