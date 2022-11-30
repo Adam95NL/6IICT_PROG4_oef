@@ -2,3 +2,8 @@
     In welke regels doen zich syntaxfouten voor?
 Regels: 
 """
+
+#regel 3
+#regel 6
+#regel 12
+#regel 13
