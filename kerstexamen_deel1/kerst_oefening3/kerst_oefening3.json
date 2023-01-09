@@ -1,0 +1,14 @@
+{
+    "highscore": 1,
+    "breedte" :     600,
+    "hoogte"   :    400,
+    "slang_blok" :     10,
+    "slang_snelheid":  15,
+    "eten_blok"     :  10,
+    "kleuren"       :  {
+        "wit" :[255,255,255],
+        "rood":  [255,0,0],
+        "groen": [0, 255, 0],
+        "blauw":  [0, 0, 255]
+}
+}
