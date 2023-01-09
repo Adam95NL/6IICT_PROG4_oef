@@ -6,8 +6,9 @@ Haal de dictionary op uit credentials.json.
 Zet de waarde van de key "access_token" (de zeer lange string),
 in de variabele wachtwoord.
 """
-
-wachtwoord = "Vervang door waarde van de key 'access_token'."
+fp = open("hfst_2\spotify_api/certificatie.json", "r")
+token = json.load(fp)
+wachtwoord = token["access_token"]
 
 """ Oefen mee 4:
 Vul url aan om de data van het lied op te halen.
