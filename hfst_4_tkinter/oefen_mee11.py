@@ -8,13 +8,19 @@ woord = ""
 
 
 veld = tk.Entry(master=venster, font=("Helvetica",14), border=10, borderwidth=5)
-veld.grid(row=0, column=0)
+veld.pack()
 
 # TODO: functie aanmaken gelinkt aan Button knop.
 #       Doel van functie is toevoegen van Entry veld aan Label onder de knop.
+def knop_klik():
+    global woord
+    woord = woord + veld.get()
+    knop = tk.Label(master=venster, text= woord)
+    knop.pack()
 
-knop = tk.Button(master=venster, command=, text="Voeg toe aan string:", width=50)
-knop.grid(row=1, column=0, pady=10, padx= 10)
+    
+knop = tk.Button(master=venster, command= knop_klik, text="Voeg toe aan string:", width=50)
+knop.pack()
 
 # Maak de GUI zichtbaar op de computer.
 venster.mainloop()
