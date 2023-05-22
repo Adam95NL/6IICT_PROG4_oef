@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import random
 
 class Hond:
@@ -23,3 +24,5 @@ hond_3 = Hond("Ranger","tuin")
 hond_1.ziet_hond(hond_2)
 hond_1.ziet_hond(hond_3)
 print(hond_1.locatie)
+=======
+>>>>>>> 0b28e4106de5f3bfb747671d2b7455372bf6ea21
