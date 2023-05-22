@@ -38,7 +38,7 @@ while running:
         """ 1. Beweeg particle """
         """ 2. Reset particle """
         pygame.draw.circle(scherm, (255,255,255), ("3. Vul aan met x-/y-positie van particle"), 10)
-
+    
     # Toon scherm aan gebruiker.
     pygame.display.update()
 
